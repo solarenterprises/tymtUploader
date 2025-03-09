@@ -1,0 +1,18 @@
+{
+    "_id": "asdf",
+    "name": "asdf",
+    "short_description": "asdf",
+    "description": "Experience the game in your browser.",
+    "tags": [
+        "Browser",
+        "Game"
+    ],
+    "price": 0.0,
+    "youtubeUrl": "https://youtubeurl",
+    "platforms": {
+        "browser": {
+            "name": "asdf",
+            "external_url": "asdf"
+        }
+    }
+}
