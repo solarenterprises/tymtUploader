@@ -132,3 +132,6 @@ cython_debug/
 
 # Windows
 Thumbs.db
+
+# Build files
+tymtuploader.spec
