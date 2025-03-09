@@ -97,6 +97,11 @@ To build a Windows executable on macOS, you need to use a cross-compilation tool
     pyinstaller --onefile --windowed --name "TymtUploader" main.py
     ```
 
+4. Build the executable directly from Windows:
+    ```sh
+    pyinstaller --clean --windowed --add-data "add-gamefolder-here;add-gamefolder-here" --add-data "menus;menus" --add-data "utils;utils" --add-data "README.md;." --add-data "requirements.txt;." --name "TymtUploader" --icon "icon.ico" main.py
+    ```
+
 ### **🍏 macOS (.app)**
 
 ```sh
